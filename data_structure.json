@@ -1,0 +1,55 @@
+{
+  "CL": {
+    "type": "Dataset",
+    "shape": "(3, 1)",
+    "dtype": "object"
+  },
+  "CR": {
+    "type": "Dataset",
+    "shape": "(3, 1)",
+    "dtype": "object"
+  },
+  "L": {
+    "type": "Dataset",
+    "shape": "(3, 1)",
+    "dtype": "object"
+  },
+  "R": {
+    "type": "Dataset",
+    "shape": "(3, 1)",
+    "dtype": "object"
+  },
+  "XY": {
+    "type": "Dataset",
+    "shape": "(2, 274)",
+    "dtype": "float64"
+  },
+  "distance": {
+    "type": "Dataset",
+    "shape": "(2, 1)",
+    "dtype": "object"
+  },
+  "dt_si": {
+    "type": "Dataset",
+    "shape": "(1, 1)",
+    "dtype": "float64"
+  },
+  "epochs": {
+    "type": "Group",
+    "members": {
+      "cue": "(1, 1)",
+      "sample": "(2, 1)",
+      "stim": "(2, 1)"
+    }
+  },
+  "file": {
+    "type": "Dataset",
+    "shape": "(75, 1)",
+    "dtype": "uint16"
+  },
+  "stimXY": {
+    "type": "Dataset",
+    "shape": "(2, 1)",
+    "dtype": "object"
+  }
+}
